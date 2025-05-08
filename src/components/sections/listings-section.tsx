@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import { fetchListings } from "@/services/pediatric-service"
 import { MapPin } from "lucide-react"
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function ListingsSection({ filters }: { filters?: any }) {
   interface Listing {
     id: string
